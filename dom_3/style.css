@@ -1,0 +1,15 @@
+table {
+  font-family: Sans-Serif;
+  font-size: 14px;
+  background: white;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  border-bottom: 2px solid;
+  padding: 10px 8px;
+}
+td {
+  padding: 9px 8px;
+}
