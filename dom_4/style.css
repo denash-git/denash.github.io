@@ -1,0 +1,52 @@
+body {
+  font-family: Sans-Serif;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  padding: 9px 8px;
+}
+td {
+  font-size: 14px;
+  padding: 9px 8px;
+  text-align: left;
+}
+th:hover {
+  color: red;
+  transition: 0.5s;
+}
+caption {
+  color: blue;
+  font-weight: bold;
+}
+.danger {
+  background: lightgray;
+  margin: 20px 10px;
+}
+.danger p {
+  font-size: 12px;
+  margin: 5px 10px 5px 10px;
+}
+.form {
+  font-weight: bold;
+  width: 300px;
+  background: lightgray;
+  border: 1px solid gray;
+  text-align: center;
+}
+input {
+  font-size: 16px;
+  margin: 10px;
+}
+
+#add:hover, #profit:hover {
+  background: red;
+  color: white;
+  transition: 1s;
+}
