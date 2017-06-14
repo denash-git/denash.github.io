@@ -1,0 +1,73 @@
+body {
+  font-family: arial;
+}
+
+.display {
+  height: 110px;
+  width: 275px;
+  background: lightblue;
+  border: 2px solid black;
+}
+
+.display p {
+  text-align: center;
+  font-weight: bold;
+}
+.many {
+  width: 337px;
+  height: 390px;
+  background-image: url("img/cash.jpg");
+  background-position: center;
+  background-size: cover;
+  *margin: 0px 0px 0px 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.manage {
+  width: 210px;
+}
+
+ul {
+  margin: 0px;
+}
+
+li {
+  *list-style: none;
+  text-align: center;
+  font-size: 24px;
+  background: lightgray;
+  border-radius: 35px;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#pocket li {
+  list-style: none;
+  width: 110px;
+  margin-left: 52px;
+  margin-bottom: 0px;
+}
+
+}
+#coffebutton li {
+  *width: 160px;
+  margin-left: 52px;
+}
+
+#coffebutton li:before {
+ 
+}
+
+li:hover {
+  background: lightgreen;
+  cursor: grab;
+}
+
+li:active {
+  background: red;
+  color: white;
+  cursor: grabbing;
+}
