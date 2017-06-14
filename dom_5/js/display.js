@@ -1,5 +1,4 @@
 function PrintDisplay() {
-  money.__proto__= Pocket();
   var Display = [
     {
       line1: "Выберите напиток",
@@ -7,7 +6,7 @@ function PrintDisplay() {
       line3: ""
     },
     {
-      line1: "Вы внесли сумму: " + money,     // +сумма из кошелька
+      line1: "Вы внесли сумму: ",     // +сумма из кошелька
       line2: "Выберите напиток",
       line3: ""
     },

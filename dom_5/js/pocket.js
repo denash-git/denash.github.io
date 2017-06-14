@@ -1,10 +1,6 @@
 function Pocket() {
   this.money = 0;     //внесено на депозит кофе
-  Pocket.__proto__.money = function(){
-    return this.money
-  }
-
-  var cash = [
+    var cash = [
     {
       coin: 1,
       curr: "рубль"
