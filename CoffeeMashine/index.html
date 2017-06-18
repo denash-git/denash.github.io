@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Virtual Coffe Mashine</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <div class="mashine">
+    <h4>Virtual Coffee Mashine</h4>
+
+    <div class="display">
+      <p id="line1"></p>
+      <p id="line2"></p>
+      <p id="line3"></p>
+    </div>
+
+	 <div class="manage">
+		  <ol id="coffeebutton"></ol>
+	 </div>
+
+    <div id="sugar">
+      <p id="btn+">+</p>
+      Сахар
+      <p id="btn-">-</p>
+    </div>
+
+  </div>
+
+  <div class="form">
+    <p>Введите свой напиток:</p>
+    <input type="text" id="drink-name" placeholder="название напитка"></br>
+    <input type="number" id="drink-price" placeholder="цена напитка"></br>
+    <input type="submit" id="drink-add" value="Добавить"></br>
+    <p>Введите свою купюру:</p>
+    <input type="number" id="curr" placeholder="номинал"></br>
+    <input type="submit" id="curr-add" value="Добавить"></br>
+  </div>
+
+	<div class="many">
+    <ul id="pocket"></ul>
+  </div>
+
+
+	<script type="text/javascript" src="js/machine.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

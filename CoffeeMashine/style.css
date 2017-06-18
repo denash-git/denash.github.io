@@ -1,0 +1,140 @@
+body {
+  font-family: arial;
+
+}
+.form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  width: 300px;
+  background: lightgray;
+  border: 1px solid gray;
+  text-align: center;
+
+}
+
+.form input {
+  margin: 5px 0px 0px 0px;
+  font-size: 14px;
+}
+
+span {
+
+  background: gray;
+  border-radius: 16px;
+  font-size: 18px;
+  text-align: center;
+  padding: 3px;
+  }
+
+h4 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.mashine {
+  width: 400px;
+  height: auto;
+  background: gray;
+  border: 3px solid black;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.display {
+  height: 110px;
+  width: 275px;
+  background: lightblue;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.display p {
+  text-align: center;
+  font-weight: bold;
+}
+.many {
+  width: 337px;
+  height: 390px;
+  background-image: url("img/cash.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#sugar {
+  float: right;
+  width: 90px;
+  height: 125px;
+  font-size: 22px;
+  margin-top: -386px;
+  margin-right: 30px;
+  text-align: center;
+}
+
+#sugar p {
+  background: gray
+  padding: 5px 5px;
+  border: 2px solid white;
+  border-radius: 25px;
+  transition: 0.2s;
+  margin: 10px 5px;
+} 
+#sugar p:hover { 
+  cursor: pointer;
+  background: lightgray;
+}
+#sugar p:active { 
+  cursor: pointer;
+  background: red;
+}
+
+.manage {
+  width: 225px;
+
+}
+
+ul {
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  font-size: 22px;
+  background: lightgray;
+  border-radius: 35px;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#pocket li {
+  text-align: center;
+  width: 110px;
+  margin-left: 52px;
+  margin-bottom: 0px;
+}
+
+}
+#coffebutton li {
+  margin-left: 52px;
+}
+
+
+
+li:hover {
+  background: lightgreen;
+  cursor: grab;
+}
+
+li:active {
+  background: red;
+  color: white;
+  cursor: grabbing;
+}

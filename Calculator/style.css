@@ -1,0 +1,24 @@
+
+.calc{
+  height: 300px;
+  width: 200px;
+  background: lightgray;
+  border: 1px solid;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  }
+#answer {
+  font-size: 30px;
+  font-family: arial;
+  text-align: right;
+  background: white;
+  margin: 30px 20px 0px 20px;
+}
+
+.knopki {
+  font-size: 30px;
+  margin: 30px 20px 30px 20px;
+}
